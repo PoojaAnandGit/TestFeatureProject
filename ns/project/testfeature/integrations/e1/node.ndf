@@ -45,34 +45,32 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">flowadmin</value>
-    <value name="createdDate">1712580505762</value>
-    <value name="lastModifiedDate">1712580505762</value>
+    <value name="lastModifiedBy">flowadmin</value>
+    <value name="lastModifiedDate">1713877170821</value>
     <value name="displayName">e1</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
       <record name="/0" javaclass="com.wm.util.Values">
-        <value name="itemType">CONTROLS</value>
-        <value name="name">IF</value>
-        <record name="config" javaclass="com.wm.util.Values">
-          <value name="displayLabel">field_name</value>
-          <value name="toolTipLabel">name</value>
-          <Boolean name="showLeafLabelOnly">true</Boolean>
-          <Boolean name="allowConstantValueInput">true</Boolean>
-          <Boolean name="focusOnLoad">true</Boolean>
-          <Boolean name="specialCharsAllowed">false</Boolean>
-          <Boolean name="resetOnfocusout">true</Boolean>
-          <Boolean name="displayIcon">true</Boolean>
+        <null name="name"/>
+        <value name="itemType">SERVICES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">Math</value>
+          <value name="groupName">math</value>
+          <null name="services"/>
         </record>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="displayName">addInts</value>
+          <value name="serviceName">pub.math:addInts</value>
+          <value name="transformerSupport">true</value>
+        </record>
+        <number name="lineNumber" type="Long">1</number>
+        <number name="ui_step_index" type="Long">1</number>
         <value name="nodePathNew">0</value>
         <number name="nodeIndex" type="Long">0</number>
         <number name="lineNumberForDebug" type="Long">1</number>
+        <null name="mapSet"/>
+        <null name="outputMapSet"/>
       </record>
-      <record name="/0/0" javaclass="com.wm.util.Values">
-        <value name="name">IF</value>
-        <value name="itemType">CONTROLS</value>
-      </record>
-      <null name="/0/0/0"/>
     </record>
   </record>
   <value name="svc_in_validator_options">none</value>
