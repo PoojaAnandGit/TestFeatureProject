@@ -16,3 +16,11 @@ services:
   packages:
   - name: WmPublic
     version: 11.0.0.0.843
+- serviceName: project.testfeature.integrations:testcache
+  packages:
+  - name: TestFeatureProject
+    version: "1.0"
+- serviceName: pub.date:currentDate
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.843
