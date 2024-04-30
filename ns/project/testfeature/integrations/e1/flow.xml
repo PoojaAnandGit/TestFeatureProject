@@ -97,4 +97,8 @@
   <COMMENT></COMMENT>
 </MAP>
 </INVOKE>
+
+<INVOKE NAME="Date" SERVICE="pub.date:currentDate">
+  <COMMENT></COMMENT>
+</INVOKE>
 </FLOW>

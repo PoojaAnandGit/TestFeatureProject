@@ -46,7 +46,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">flowadmin</value>
-    <value name="lastModifiedDate">1713934793589</value>
+    <value name="lastModifiedDate">1714460807760</value>
     <value name="displayName">e1</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -72,6 +72,21 @@
         <null name="outputMapSet"/>
         <Boolean name="serviceReferenceResolved">true</Boolean>
         <value name="nodePathForDebug">0</value>
+      </record>
+      <record name="/1" javaclass="com.wm.util.Values">
+        <null name="name"/>
+        <value name="itemType">SERVICES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">Date</value>
+          <value name="groupName">date</value>
+          <null name="services"/>
+        </record>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="displayName">currentDate</value>
+          <value name="serviceName">pub.date:currentDate</value>
+          <value name="transformerSupport">true</value>
+        </record>
+        <number name="lineNumber" type="Long">2</number>
       </record>
     </record>
   </record>
