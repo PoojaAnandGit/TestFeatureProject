@@ -28,3 +28,7 @@ services:
   packages:
   - name: TestFeatureProject
     version: "1.0"
+- serviceName: project.testfeature.integrations:getDate
+  packages:
+  - name: TestFeatureProject
+    version: "1.0"

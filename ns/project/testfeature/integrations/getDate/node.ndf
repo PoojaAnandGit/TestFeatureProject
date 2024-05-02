@@ -34,10 +34,10 @@
   </record>
   <value name="description"></value>
   <value name="stateless">yes</value>
-  <value name="caching">no</value>
-  <value name="prefetch">no</value>
-  <value name="cache_ttl">15</value>
-  <value name="prefetch_level">1</value>
+  <value name="caching">yes</value>
+  <value name="prefetch">yes</value>
+  <value name="cache_ttl">5</value>
+  <value name="prefetch_level">2</value>
   <value name="audit_level">off</value>
   <value name="check_internal_acls">no</value>
   <value name="icontext_policy">$null</value>
@@ -45,9 +45,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">flowadmin</value>
-    <value name="createdDate">1714637788271</value>
-    <value name="lastModifiedDate">1714637788271</value>
+    <value name="lastModifiedBy">flowadmin</value>
+    <value name="lastModifiedDate">1714637799620</value>
     <value name="displayName">getDate</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
